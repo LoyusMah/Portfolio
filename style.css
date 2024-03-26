@@ -234,14 +234,38 @@ header .header {
   margin-top: 5rem;
   padding: 7rem;
 }
-.about .myImg 
-
 /* <!-- contact--> */
-
+.contact {
+  padding-top: 7rem 0;
+  margin: auto;
+  margin-top: 5rem;
+  width: 400px;
+}
+.contact .social {
+  font-size: 3rem;
+  justify-content: space-between;
+}
+.contact h3 {
+  text-align: center;
+  padding: 3rem 0;
+}
+.contact .email-section {
+  background: rgb(157, 99, 99);
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 40px;
+  font-size: 1rem;
+  gap: 2rem;
+}
+.contact .email {
+  background: var(--color-dark);
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+}
 /* <!-- footer--> */
 footer {
-  min-height: 30vw;
+  height: 30px;
   background: black;
   color: white;
-  margin-top: 5rem;
 }
